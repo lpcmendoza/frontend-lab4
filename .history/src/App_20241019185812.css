@@ -1,0 +1,36 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; /* Remove default margin */
+  height: 100vh; /* Make body full height */
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.container {
+  text-align: center; /* Center text inside the container */
+  width: 100%; /* Full width for the container */
+  max-width: 400px; /* Set a maximum width for the task list */
+  padding: 20px; /* Add some padding */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for aesthetics */
+  border-radius: 8px; /* Optional: Rounded corners */
+  background-color: #FEF8EF; /* Optional: White background for better contrast */
+}
+
+ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+li {
+  display: flex; /* Use flexbox to align items */
+  align-items: center; /* Center vertically */
+  margin: 10px 0; /* Space between tasks */
+}
+
+button {
+  margin-left: 10px; /* Space between checkbox and button */
+}
